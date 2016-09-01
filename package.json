@@ -1,0 +1,32 @@
+{
+  "name": "tao-random-test-taker",
+  "version": "0.1.0",
+  "description": "Generate random test taker for TAO in CSV",
+  "main": "./src/generator.js",
+  "scripts": {
+    "test": "grunt test",
+    "lint": "grunt lint",
+    "dev": "grunt dev"
+  },
+  "bin": {
+    "taoUserGenerator": "./index.js"
+  },
+  "author": "Bertrand Chevrier <bertrand@taotesting.com>",
+  "license": "GPL-2.0",
+  "engine": ">=6.0.0",
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-eslint": "^19.0.0",
+    "grunt-tape": "^0.1.0",
+    "load-grunt-tasks": "^3.5.2",
+    "tape": "^4.6.0",
+    "time-grunt": "^1.4.0"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "request": "^2.74.0"
+  }
+}
